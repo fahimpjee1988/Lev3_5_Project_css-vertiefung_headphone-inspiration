@@ -1,0 +1,129 @@
+/* Assets:
+Font: Work sans
+Farben: #2e2e2e / #867772 / rgb(234, 204, 194) / #ebccc2 / #fff / rgb(115, 115, 115)  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    background:  #2e2e2e;
+    color: rgb(234, 204, 194);    
+    position: relative;
+    font-weight: lighter;
+    scroll-behavior: smooth;
+
+}
+
+.circle::before {
+    content: "";
+    width: 16px;
+    display: inline-block;
+    height: 16px;
+    border: 1px solid rgb(115, 115, 115);
+    opacity: 0.6;
+    border-radius: 50%;
+}
+.leftNav a.active::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: relative;
+    left: -36px;
+    top: 4px;
+}
+.line {
+    width: 1px;
+    height: 64px;
+    border-left: 1px solid rgb(115, 115, 115);
+    opacity: 0.6;
+    margin: -41px 9px 24px;
+}
+.posActive {
+    position: relative;
+    left: 80px;
+    top: -20px;
+}
+.pos {
+    position: relative;
+    left: 80px;
+    top: -20px;
+}
+
+
+
+header{
+    display:flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+   
+}
+
+header a:hover{
+    text-decoration: underline;
+    color: white;
+}
+header a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+#textandcover h1{
+    width: 400px;
+    font-weight: lighter;
+    padding-top: 15%;
+    padding-left:15%;
+    padding-bottom: 15%;
+    
+}
+#textandcover img{
+    width:80%;
+    padding-left: 10%;
+}
+
+.pictext{
+    display: flex;
+}
+.pictext img{
+    width: 25%;
+    margin:5%;
+    padding-left: 10%;
+}
+
+
+.pictext h2{
+    padding-top: 12%;
+    padding-bottom: 5%;
+    font-weight: lighter;
+
+}
+.pictext p{
+    font-weight: lighter;
+    color: rgb(115, 115, 115);
+}
+
+#lounger{
+    display: flex;
+    padding: 0;
+}
+#lounger img{
+    width:30em;
+    height: 70vh;
+}
+#lounger h2, p{
+    width:60%;
+    padding-left: 5%;
+}
+
+#lounger h2{
+ padding-bottom:5%;
+}
+
+
